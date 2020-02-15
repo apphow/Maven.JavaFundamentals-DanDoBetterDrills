@@ -31,10 +31,9 @@ public class MathUtilities {
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
-    public int add(short baseValue,  short difference) {
-        int a = baseValue;
-        int b = difference;
-        return a + b;
+    //here
+    public short  add(short baseValue,  short difference) {
+        return (short) (baseValue + difference);
     }
 
     /**
